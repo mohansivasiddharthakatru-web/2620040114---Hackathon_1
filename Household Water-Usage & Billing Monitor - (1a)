@@ -1,0 +1,26 @@
+import java.util.Scanner;
+public class HouseHold
+{
+    public static void main(String[] args)
+    {
+        Scanner in = new Scanner(System.in);
+
+        System.out.println("Enter the number of family members: ");
+        int name = in.nextInt();
+
+        System.out.println("Enter the amount of water consumed in litres: ");
+        double waterConsumed = in.nextDouble();
+
+        System.out.println("Enter house number: ");
+        int houseNumber = in.nextInt();
+
+        System.out.println("Enter water usage status: ");
+        char status = in.next().charAt(0);
+
+        System.out.println("House Number: " + houseNumber);
+        System.out.println("Number of Family Members: " + name);
+        System.out.println("Water Consumed: " + waterConsumed + " litres");
+        System.out.println("Water Usage Status: " + status);
+    }
+
+}
